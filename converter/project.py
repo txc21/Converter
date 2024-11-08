@@ -49,7 +49,6 @@ second_entry.pack(padx=5,side='right')
 last_intt = tk.IntVar()
 last = ttk.Entry(master = root , foreground='blue',textvariable=last_intt)
 last.pack()
-
 ##
 con = ttk.Button(master =root ,text='Convay' , command=engine,style='info.TButton')
 con.pack(pady=5)
